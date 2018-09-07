@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hptg1994/Dribo-Electron#readme",
   "dependencies": {
-    "electron": "^2.0.8"
+    "electron": "^2.0.8",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
