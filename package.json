@@ -1,0 +1,23 @@
+{
+  "name": "dribo-electron",
+  "version": "1.0.0",
+  "description": "A Dribbble Client",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hptg1994/Dribo-Electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hptg1994/Dribo-Electron/issues"
+  },
+  "homepage": "https://github.com/hptg1994/Dribo-Electron#readme",
+  "dependencies": {
+    "electron": "^2.0.8"
+  }
+}
