@@ -1,0 +1,5 @@
+./wrk -t80 -c200 -d30s --latency  http://172.31.96.53:12345/getOne
+
+./wrk -t80 -c2000 -d30s --latency  http://172.31.96.53:12345/getOne
+
+./wrk -t80 -c20000 -d30s --latency  http://172.31.96.53:12345/getOne
