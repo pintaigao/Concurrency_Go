@@ -8,6 +8,7 @@ func main() {
 		"course":  "golang",
 		"site":    "imooc",
 		"quality": "notbad",
+		"cause":   "reason",
 	}
 
 	m2 := make(map[string]int) // m2 == empty map
@@ -25,8 +26,10 @@ func main() {
 	fmt.Println("Getting values")
 	courseName := m["course"]
 	fmt.Println(`m["course"] =`, courseName)
+
 	if causeName, ok := m["cause"]; ok {
-		fmt.Println(causeName)
+		fmt.Println("Print Map If condition")
+		fmt.Println(causeName, ok)
 	} else {
 		fmt.Println("key 'cause' does not exist")
 	}

@@ -14,8 +14,7 @@ type Retriever interface {
 }
 
 type Poster interface {
-	Post(url string,
-		form map[string]string) string
+	Post(url string, form map[string]string) string
 }
 
 const url = "http://www.imooc.com"

@@ -49,6 +49,11 @@ func swap(a, b int) (int, int) {
 	return b, a
 }
 
+/* 指针 */
+func swapRef(a, b *int) {
+	*b, *a = *a, *b
+}
+
 func main() {
 	fmt.Println("Error handling")
 	if result, err := eval(3, 4, "x"); err != nil {
@@ -69,5 +74,6 @@ func main() {
 
 	a, b := 3, 4
 	a, b = swap(a, b)
+	swapRef(&a, &b)
 	fmt.Println("a, b after swap is:", a, b)
 }

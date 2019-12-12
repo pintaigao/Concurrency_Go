@@ -19,7 +19,6 @@ func variableZeroValue() {
 	fmt.Printf("%d %q\n", a, s)
 }
 
-
 /* 初始化变量 */
 func variableInitialValue() {
 	var a, b int = 3, 4
@@ -38,9 +37,9 @@ func variableShorter() {
 	fmt.Println(a, b, c, s)
 }
 
+/* 欧拉公式 */
 func euler() {
-	fmt.Printf("%.3f\n",
-		cmplx.Exp(1i*math.Pi)+1)
+	fmt.Printf("%.3f\n", cmplx.Exp(1i*math.Pi)+1)
 }
 
 func triangle() {
@@ -54,6 +53,7 @@ func calcTriangle(a, b int) int {
 	return c
 }
 
+/* 枚举常量 */
 func consts() {
 	const (
 		filename = "abc.txt"
@@ -85,7 +85,6 @@ func enums() {
 	fmt.Println(cpp, javascript, python, golang)
 	fmt.Println(b, kb, mb, gb, tb, pb)
 }
-
 
 /* Go的主要运行方程 */
 func main() {

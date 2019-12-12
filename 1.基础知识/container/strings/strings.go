@@ -14,8 +14,8 @@ func main() {
 	}
 	fmt.Println()
 
-	for i, ch := range s { // ch is a rune
-		fmt.Printf("(%d %X) ", i, ch)
+	for index, ch := range s { // ch is a rune
+		fmt.Printf("(%d %X) ", index, ch)
 	}
 	fmt.Println()
 
